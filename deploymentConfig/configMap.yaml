@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: users-db-conf
+data:
+  host: mysql
+  name: usersdb
